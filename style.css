@@ -21,6 +21,7 @@ body {
 
 img {
     max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -300,7 +301,7 @@ a.btn-dark {
 
 .featured-content .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
 }
 
@@ -331,7 +332,7 @@ a.btn-dark {
 
 .trending-content .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
     padding: 0;
 }
@@ -677,7 +678,7 @@ footer a {
         font-size: 18px;
     }
     .masthead {
-	 	  height: 25vh;
+	 	 height: auto;
         background-attachment: scroll;
     }
     
